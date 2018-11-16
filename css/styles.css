@@ -20,8 +20,18 @@ header {
 
 }
 header nav{flex: 1;}
-header nav ul{display:flex; justify-content: flex-end; word-spacing:2px;}
-header nav ul {
-    list-style-type: none; padding 1em;
+header nav ul{
+    display:flex; 
+    justify-content: flex-end; 
+    word-spacing:2px;
+    list-style-type: none; 
+    padding 1em;
 }
+
 header nav ul li a {text-decoration: none; text-transform: uppercase;padding: 1em;}
+header nav ul li a:hover {color: #ff3059;}
+main {display: flex;}
+footer ul li a {text-decoration: none; text-transform: uppercase;padding: 1em;}
+footer ul {list-style-type: none; 
+    padding 1em;display: flex;
+justify-content: center;}
